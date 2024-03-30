@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.Main-Container{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+    width: 50vw;
+    height: 100vh;
+    background:linear-gradient( 20deg,red,blue);
+    padding: 10vh 10vh 0  10vh;
+    color: white;
+    
+
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    
+}
+button{
+    padding: 5px;
+    width: 20%;
+}
+.result{
+    width: 50%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    padding: 10px 0 0 20px;
+}
+.Result{
+    display: flex;
+    flex-direction: row;
+}

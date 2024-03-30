@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Intrest Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Main-Container"> 
+
+        <h2>Compound Intrest Calculator</h2>
+        <div>
+            <label for="principle" class="title">Enter the principle :</label>
+            <input type="number" placeholder="Enter here" id="principle">
+        </div>
+        <div>
+            <label for="Intrest" class="title">Enter the Intrest :</label>
+            <input type="number" placeholder="Enter here" id="Intrest">
+        </div>
+        <div>
+            <label for="number" class="title">Enter the number of Years :</label>
+            <input type="number" placeholder="Enter here" id="years">
+        </div>
+        <button  onclick="Calculate()">Calculate</button>
+
+        <div class="Result" >
+            <div>
+                <h2>The Result :</h2>
+                <p class="result" id="result"></p>
+            </div>
+            <div>
+                <h2>The Profit :</h2>
+                <p class="result" id="Profit"></p>
+            </div>
+        </div>
+
+    </div>
+    <script src="./Script.js"></script>
+    
+</body>
+</html>
